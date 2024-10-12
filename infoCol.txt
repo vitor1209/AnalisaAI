@@ -1,0 +1,90 @@
+age = idade
+
+sex = genero 
+    
+    0 = F
+    1 = M
+
+cp = Tipo de dor no peito
+
+    1 = Angina tipica: Angina típica é uma dor no peito temporária ou uma sensação de pressão que ocorre 
+    quando o músculo cardíaco não está recebendo oxigênio suficiente.
+    (Em alguns pacientes, pode ocorrer angina atípica, com distensão abdominal, gases, desconforto abdominal 
+    ou queimação ou sensação dolorosa nas costas, ombros, braços ou mandíbula; é MAIS COMUM EM MULHERES.)
+
+    2 = nao aginosa: A dor não anginosa, por sua vez, não necessariamente está relacionada ao sistema 
+    cardiovascular, e sim ligada a outras causas como pulmões, músculos, esôfago entre outros.
+
+    3 = Esse tipo de dor não é causada por problemas no coração, como a angina.
+
+    4 = não há dor alguma.
+
+
+trestbps  = 120/80 mmHg A pressão arterial de uma pessoa, sendo 120 a pressão sistólica 
+    (quando o coração se contrai) e 80 a pressão diastólica (quando o coração relaxa)
+
+col = Colesterol sérico em mg/dl.
+
+fbs = glicemia em jejum
+
+    1 = glicemia em jejum é maior que 120mg/dl, 
+    0 = caso contrário
+    (1 E RUIM
+     0 E BOM)
+
+restecg =  se o seu coração está batendo no ritmo certo
+
+    0 = normal
+    1 = anormalidade da onda ST-T
+    2 = hipertrofia ventricular esquerda
+
+thalach = frequência cardíaca máxima
+
+    220 - sua idade = frequência cardíaca máxima estimada
+
+exang = Angina induzida por exercício  (pouco oxigênio)
+
+    1 = sim 
+    0 = não
+    (1 E RUIM
+    0 E BOM)
+
+oldpeak = Aumento da demanda de oxigênio: O exercício físico aumenta a frequência cardíaca e a pressão arterial, 
+        elevando a demanda de oxigênio do miocárdio. (muito oxigênio)
+        (MAIOR = PIOR)
+
+declive = Quando fazemos exercício físico, nosso coração precisa trabalhar mais para bombear sangue para os músculos.
+        (mais exercícios mais rapido tem que bater o coração)
+
+        1 = Ascendente 
+             não é um bom sinal. Ele pode indicar que o coração não está recebendo sangue suficiente
+
+        2 = Plano 
+             pode ser considerado normal em algumas pessoas, mas em outras pode indicar um problema.
+
+        3 = Descendente
+                o coração pode não estar recebendo sangue suficiente durante o exercício. Isso pode indicar a presença 
+                de doença arterial coronariana. 
+
+ca = numero de vasos prejucados
+    
+     0–3 = numero de vasos (MAIOR PIOR)
+
+Talassemia = oxigênio é carregado por pequenas moléculas chamadas de hemoglobina, hemoglobina não funciona direito, 
+             as células do sangue não conseguem carregar o oxigênio de forma eficiente.
+
+             3  = normal
+                  Significa que a produção de hemoglobina está normal.
+
+             6 = defeito fixo
+                 Indica que existe um problema na produção da hemoglobina que não pode ser corrigido.
+
+            7 = defeito reversível
+                Mostra que existe um problema na produção da hemoglobina, mas que pode ser tratado com medicamentos 
+                ou outras terapias.
+
+num = 0 ausência Significa que não foi encontrada nenhuma evidência de doença cardíaca. 
+      É como se o coração fosse um motor funcionando perfeitamente.
+
+      1, 2, 3 ou 4 (presente): Indica que existe alguma doença cardíaca. Quanto maior o número, geralmente mais ]
+      grave ou avançada pode ser a doença.
