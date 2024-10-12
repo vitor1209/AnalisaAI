@@ -26,8 +26,10 @@ trestbps  = 120/80 mmHg A pressão arterial de uma pessoa, sendo 120 a pressão 
 col = Colesterol total: abaixo de 190 mg/dL;
       
       abaixo de 100 mg/dL, normalmente, é considerado ótimo; 
-      de 100 a 129 mg/dL, bom; de 130 a 159 mg/dL, limítrofe; 
-      de 160 a 189 mg/dL, alto; e acima de 190 mg/dL, muito alto
+      de 100 a 129 mg/dL, bom; 
+      de 130 a 159 mg/dL, limítrofe (alerta); 
+      de 160 a 189 mg/dL, alto; 
+      e acima de 190 mg/dL, muito alto
 
 fbs = glicemia em jejum
 
@@ -50,8 +52,8 @@ exang = Angina induzida por exercício  (pouco oxigênio)
 
     1 = sim 
     0 = não
-    (1 E RUIM
-    0 E BOM)
+    (1 É RUIM
+    0 É BOM)
 
 oldpeak = Aumento da demanda de oxigênio: O exercício físico aumenta a frequência cardíaca e a pressão arterial, 
         elevando a demanda de oxigênio do miocárdio. (muito oxigênio)
