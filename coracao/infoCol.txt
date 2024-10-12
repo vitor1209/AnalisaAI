@@ -25,11 +25,10 @@ trestbps  = 120/80 mmHg A pressão arterial de uma pessoa, sendo 120 a pressão 
 
 col = Colesterol total: abaixo de 190 mg/dL;
       
-      abaixo de 100 mg/dL, normalmente, é considerado ótimo; 
-      de 100 a 129 mg/dL, bom; 
-      de 130 a 159 mg/dL, limítrofe (alerta); 
-      de 160 a 189 mg/dL, alto; 
-      e acima de 190 mg/dL, muito alto
+      Nível ideal: menos de 200 mg/dL. 
+      Moderado: 200 a 240 mg/dL. 
+      Alto: 240 a 300 mg/dL. 
+      Muito alto, acima de 300 mg/dL.
 
 fbs = glicemia em jejum
 
@@ -62,13 +61,13 @@ oldpeak = Aumento da demanda de oxigênio: O exercício físico aumenta a frequ�
 declive = Quando fazemos exercício físico, nosso coração precisa trabalhar mais para bombear sangue para os músculos.
         (mais exercícios mais rapido tem que bater o coração)
 
-        1 = Ascendente 
+        0 = Ascendente 
              não é um bom sinal. Ele pode indicar que o coração não está recebendo sangue suficiente
 
-        2 = Plano 
+        1 = Plano 
              pode ser considerado normal em algumas pessoas, mas em outras pode indicar um problema.
 
-        3 = Descendente
+        2 = Descendente
                 o coração pode não estar recebendo sangue suficiente durante o exercício. Isso pode indicar a presença 
                 de doença arterial coronariana. 
 
@@ -79,13 +78,13 @@ ca = numero de vasos prejucados
 Talassemia = oxigênio é carregado por pequenas moléculas chamadas de hemoglobina, hemoglobina não funciona direito, 
              as células do sangue não conseguem carregar o oxigênio de forma eficiente.
 
-             3  = normal
+             1  = normal
                   Significa que a produção de hemoglobina está normal.
 
-             6 = defeito fixo
+             2 = defeito fixo
                  Indica que existe um problema na produção da hemoglobina que não pode ser corrigido.
 
-            7 = defeito reversível
+             3 = defeito reversível
                 Mostra que existe um problema na produção da hemoglobina, mas que pode ser tratado com medicamentos 
                 ou outras terapias.
 
