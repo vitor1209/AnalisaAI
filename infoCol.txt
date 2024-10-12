@@ -23,7 +23,11 @@ cp = Tipo de dor no peito
 trestbps  = 120/80 mmHg A pressão arterial de uma pessoa, sendo 120 a pressão sistólica 
     (quando o coração se contrai) e 80 a pressão diastólica (quando o coração relaxa)
 
-col = Colesterol sérico em mg/dl.
+col = Colesterol total: abaixo de 190 mg/dL;
+      
+      abaixo de 100 mg/dL, normalmente, é considerado ótimo; 
+      de 100 a 129 mg/dL, bom; de 130 a 159 mg/dL, limítrofe; 
+      de 160 a 189 mg/dL, alto; e acima de 190 mg/dL, muito alto
 
 fbs = glicemia em jejum
 
