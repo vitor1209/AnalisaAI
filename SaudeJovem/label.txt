@@ -1,0 +1,29 @@
+nível_0: UF do caso registrado. Variável criada na etapa anterior, que originalmente era os índices e resetamos (.reset_index())
+
+level_1: Ano do caso registrado. Variável criada na etapa anterior, que originalmente era os índices e resetamos (.reset_index())
+
+CIRCOBITO: circunstância do óbito. 1 : Acidente, 2 : Suicídio, 3 : Homicídio, 4 : Outro, 0;5;6;7;8;9 : NA.
+
+DTOBITO: dados do óbito.
+
+DTNASC: data de nascimento.
+
+SEXO: sexo. 1: Masculino, 2: Feminino, 0;9: NA.
+
+RACACOR: raça. 1: Branca, 2: Preta, 3: Amarela, 4: Parda, 5: Indígena, 0;6;7;8;9: NA.
+
+ESTCIV: estado civil. 1: Solteiro, 2: Casado, 3: Viúvo, 4: Separado judicialmente, 5: União consensual, 0;6;7;8;9: NA.
+
+ESC: escolaridade. 1 : Nenhuma, 2: 1 a 3 anos, 3 : 4 a 7 anos, 4 : 8 a 11 anos, 5 : 12 e mais, 8 : De 9 a 11 anos, 0;6;7;9;A : NA .
+
+OCUP: ocupação. Para óbitos a partir de 2006, segue-se a tabela CBO2002.
+
+CODMUNRES: município de residência do falecido (codificado).
+
+LOCOCOR: Local de ocorrência do óbito. 1: Hospital, 2: Outro estabelecimento de saúde, 3: Domicílio, 4: Via pública, 5: Outros, 9: NA.
+
+ASSISTMED: Assistência médica. 1: Sim, 2: Não, 9: NA.
+
+CAUSABAS: Causa básica do óbito. Código CID-10.
+
+CAUSABAS_O: Causa básica do óbito. Código CID-10.
