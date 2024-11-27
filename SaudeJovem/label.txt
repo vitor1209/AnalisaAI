@@ -1,6 +1,6 @@
-nível_0: UF do caso registrado. Variável criada na etapa anterior, que originalmente era os índices e resetamos (.reset_index())
+estado: UF do caso registrado. 
 
-level_1: Ano do caso registrado. Variável criada na etapa anterior, que originalmente era os índices e resetamos (.reset_index())
+ano: Ano do caso registrado. 
 
 CIRCOBITO: circunstância do óbito. 1 : Acidente, 2 : Suicídio, 3 : Homicídio, 4 : Outro, 0;5;6;7;8;9 : NA.
 
